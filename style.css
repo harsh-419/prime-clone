@@ -13,6 +13,20 @@ body{
 
 }
 .nav{
+.lt-nav{
+	display: flex;
+	padding: 16px 35px;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 2px;
+	align-items: center;
+	    cursor: pointer;
+}
+.nav-img{
+	height: 60px;
+	width: 140px;
+	
 	display: flex;
 	align-items: center;
 	background: linear-gradient( to left,#1b2530 10%,rgba(27,37,48,90) 100%);
@@ -29,19 +43,6 @@ body{
 	font-size: 17px;
 	line-height: 24px;
 }
-.lt-nav{
-	display: flex;
-	padding: 16px 35px;
-	height: 100%;
-	width: 100%;
-	left: 0;
-	top: 2px;
-	align-items: center;
-	    cursor: pointer;
-}
-.nav-img{
-	height: 60px;
-	width: 140px;
 	background-size: contain;
 	background-image: url(Images/logo.jpg);
 	background-repeat: no-repeat;
@@ -51,16 +52,18 @@ body{
 }
 .rt-nav{
 	color: #F0E8E8;
+	
+	0px;
+	font-size: 17px;
+}
+.nav1{
 	display: flex;
 	position: absolute;
 	right: 0;
 	justify-content: flex-end;
 	width: 65em;
 	top: 1.5em;
-	padding-right: 50px;
-	font-size: 17px;
-}
-.nav1{
+	padding-right: 5
 	position: absolute;
     font-size: 1.6em;
     padding-right: 110px;
